@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" . />
+<link rel="stylesheet" href="de15.css">
+</head>
+<body>
+    <div class="sp" >
+        <div class="themsp">
+            <P class="td">Bạn có cần thêm?</P>
+            <div class="dssp">
+                <div class="muiten a1" onclick="prevImage()"><i class="fa-solid fa-chevron-left"></i></div>
+                <div class="spi ">
+                    <img src="https://ananas.vn/wp-content/uploads/Pro_AHCS012_1.jpg" alt="">
+                    <div class="spi_chu">
+                        <p>High Crew Socks - Ananas Daily Things-Laurel Oak</p>                  
+                        <p>95.000 VND</p>
+                        <button>Thêm</button>
+                    </div>
+                </div>
+                <div class="spi">
+                    <img src="https://ananas.vn/wp-content/uploads/pro_ALB016_1_Fix.jpeg" alt="">
+                    <div class="spi_chu">
+                        <p>Blank Shoelaces-Evening Primrose</p>
+                        <p>95.000 VND</p>
+                        <button>Thêm</button>
+                    </div>
+                </div>
+                <div class="muiten a2"onclick="nextImage()"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+        </div>
+        <div class="giohang">
+            <div> <h3>GIỎ HÀNG</h3></div>
+            <div class="gh1">
+                <div class="gh-tong">
+                    <img src="https://ananas.vn/wp-content/uploads/Pro_AV00209_1.jpg" alt="">
+                <div class="gh1-ten">
+                    <p>Vintas Public 2000s - Low Top - Caviar Black</p>
+                    <p>Giá: 620.000 VND</p>
+                    <div class="selec">
+                       <div class="selec1">
+                        <label for="">Size</label>
+                        <select > <option >35</option></select>
+                       </div>
+                       <div class="selec1">
+                        <label for="">Số lượng</label>
+                        <select id="quantity" onchange="updateTotal()"> <option >1</option>
+                            <option >2</option>
+                            <option >3</option>
+                            <option >4</option>
+                            <option >5</option>
+                        </select>
+                       </div>
+                    </div>
+                </div>
+                </div>
+                <div class="gh1-tien">
+                    <p id="item-price">620.000 VND</p>
+                    <p>Còn hàng</p>
+                    <button class="thich"><i class="fa-regular fa-heart"></i></button>
+                    <button class="xoa"><i class="fa-solid fa-trash"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="nut">
+            <button>XÓA HẾT</button>
+            <button>QUAY LẠI MUA HÀNG</button>
+        </div>
+    </div>
+    <div class="donhang">
+        <h3>ĐƠN HÀNG </h3>
+       <p class="km">NHẬP MÃ KHUYẾN MÃI</p>
+       <div class="nutdh">
+        <input type="text"  id="promo-code">
+        <button onclick="applyPromoCode()">ÁP DỤNG</button>
+       </div>
+       <div class="dh1">
+            <div class="dh2">
+                <p>Đơn hàng</p>
+                <p>620.000 VND</p>
+            </div>
+            <div class="dh2">
+                <p>Giảm </p>
+                <P>0 VND</P>
+            </div>
+       </div>
+       <div class="dh-tt"> <p>TẠM TÍNH </p>
+        <p>620.000 VND</p>
+       </div>
+       <button class="gh-ttoan">TIẾP TỤC THANH TOÁN</button>
+    </div>
+    <script src="de15.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="de7.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" ./>
+</head>
+<body>
+    <div class="container">
+        <div class="sanpham">
+            <div class="sanpam1">
+                <div class="anh"><img src="/img/anhlms.jpg" alt=""></div>
+                <div class="chu">
+                    <p>Sản Phẩm 1</p>
+                    <p>100000</p>
+                </div>
+                <input type="button" value="MUA HÀNG"onclick="themsanpham1()">
+            </div>
+            <div class="sanpham2">
+                <div class="anh"><img src="/img/anhlms.jpg" alt=""></div>
+                <div class="chu">
+                    <p>Sản Phẩm 2</p> 
+                    <p>150000</p>
+                </div>
+                <input type="button" value="MUA HÀNG" onclick="themsanpham2()">
+            </div>
+        </div>
+        <div class="giohang">
+            
+           <table>
+            <thead><tr><h4>Giỏ Hàng </h4></tr></thead>
+          <tbody id="themsanpham" ></tbody>
+           
+            
+           <tfoot> <tr class="tongtien">
+            
+                <td><p>Tổng Tiền </p></td>
+                <td colspan="3"><input type="number" value="350000" id="sum-all"></td>
+                
+           </tr></tfoot>
+           </table>
+        </div>
+    </div>
+    <script src="de7.js"></script>
+</body>
+</html>

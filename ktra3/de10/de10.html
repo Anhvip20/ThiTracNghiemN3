@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="de10.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" . />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cot cot_mot">
+            <div class="dau">
+                <input type="checkbox">
+                <span>
+                    Chọn tất cả
+                    (
+                        <span class="tong_so_luong">
+                            3
+                        </span>
+                    )
+                </span>
+                <p class="xoa1" onclick="xoaall()"><ion-icon name="trash-outline"></ion-icon></i></p>
+            </div>
+            <div class="ds_sanpham">
+                <div class="sanpham sp1">
+                    <div class="check"><input type="checkbox" /></div>
+                    <img src="https://cdn2.fptshop.com.vn/unsafe/64x0/filters:quality(100)/2022_9_14_637987444373211596_robot-hut-bui-lau-nha-ecovacs-deebot-t8-max-plus-trang-dlx11-61-2.jpg" alt="">
+                    <div class="chu">
+                        Máy xay thịt
+                        <select>
+                            <option>Màu: Bạc</option>
+                        </select>
+                    </div>
+                    <div class="so">
+                        <p class="tt">499.000 đ</p>
+                        <p class="giam">699.000 đ</p>
+                    </div>
+                    <div class="nutsl">
+                        <button id="giam" onclick="giam(this)">-</button>
+                        <input type="text" value="1" id="sll" />
+                        <button id="tang" onclick="tang(this)">+</button>
+                    </div>
+                    <div class="xoa1" onclick="xoa()"><ion-icon name="trash-outline"></ion-icon></i></div>
+                </div>
+                <div class="sanpham sp2">
+                    <div class="check"><input type="checkbox" /></div>
+                    <img src="https://cdn2.fptshop.com.vn/unsafe/64x0/filters:quality(100)/2022_9_14_637987444373211596_robot-hut-bui-lau-nha-ecovacs-deebot-t8-max-plus-trang-dlx11-61-2.jpg" alt="">
+                    <div class="chu">
+                        Máy xay thịt
+                        <select>
+                            <option>Màu: Bạc</option>
+                        </select>
+                    </div>
+                    <div class="so">
+                        <p class="tt">600.000 đ</p>
+                        <p class="giam">899.000 đ</p>
+                    </div>
+                    <div class="nutsl">
+                        <button id="giam" onclick="giam(this)">-</button>
+                        <input type="text" value="1" id="sll" />
+                        <button id="tang" onclick="tang(this)">+</button>
+                    </div>
+                    <div class="xoa1" onclick="xoa()"><ion-icon name="trash-outline"></ion-icon></i></div>
+                </div>
+                <div class="sanpham sp3">
+                    <div class="check"><input type="checkbox" /></div>
+                    <img src="https://cdn2.fptshop.com.vn/unsafe/64x0/filters:quality(100)/2022_9_14_637987444373211596_robot-hut-bui-lau-nha-ecovacs-deebot-t8-max-plus-trang-dlx11-61-2.jpg" alt="">
+                    <div class="chu">
+                        Máy xay thịt
+                        <select>
+                            <option>Màu: Bạc</option>
+                        </select>
+                    </div>
+                    <div class="so">
+                        <p class="tt">499.000 đ</p>
+                        <p class="giam">699.000 đ</p>
+                    </div>
+                    <div class="nutsl">
+                        <button id="giam" onclick="giam(this)">-</button>
+                        <input type="text" value="1" id="sll" />
+                        <button id="tang" onclick="tang(this)">+</button>
+                    </div>
+                    <div class="xoa1" onclick="xoa()"><ion-icon name="trash-outline"></ion-icon></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="cot cot_hai">
+            <div class="quatang">
+                <p><i class="fa-solid fa-gift"></i></p>
+                <p>Quà tặng</p>
+                <a href="#">Xem quà (<span>0</span>) </a>
+            </div>
+            <div class="thanhtoan">
+                <div class="uudai">
+                    <div class="uudai1">
+                        <i class="fa-solid fa-percent"></i>
+                        <p> Chọn hoặc nhập ưu đãi </p>
+                    </div>
+                    <p><i class="fa-solid fa-chevron-right"></i></p>
+                </div>
+                <div class="point-container">
+                    <div class="point-icon"></div>
+                    <span class="point-text">Đổi 0 điểm (~0đ)</span>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="order-summary">
+                    <h2>Thông tin đơn hàng</h2>
+                    <div class="order-row  " >
+                        <span>Tổng tiền</span>
+                        <span class="price zz">5.388.000 đ</span>
+                    </div>
+                    <div class="order-row nn">
+                        <span>Tổng khuyến mãi</span>
+                        <span class="price">2.820.000 đ</span>
+                    </div>
+                    <div class="order-row">
+                        <span>Phi vận chuyển</span>
+                        <span class="price">Miễn phí</span>
+                    </div>
+                    <div class="order-row total-due">
+                        <span>Cần thanh toán</span>
+                        <span class="price-red">2.568.000 đ</span>
+                    </div>
+                    <div class="order-row">
+                        <span>Điểm thưởng</span>
+                        <span class="reward-points">
+                            <div class="point-icon"></div>+642
+                        </span>
+                    </div>
+                    <div class="order-details">
+                        <a href="#">Xem chi tiết</a>
+                    </div>
+                </div>
+                <input type="submit" value="Xác nhận đơn " class="nut">
+            </div>
+        </div>
+    </div>
+    <script src="de10.js"></script>
+</body>
+
+</html>

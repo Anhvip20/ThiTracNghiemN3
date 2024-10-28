@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+.header img {
+    height: 50px;
+    margin-left: 700px;
+}
+.header .search {
+    display: flex;
+    align-items: center;
+}
+.header .search input {
+    padding: 5px;
+    border-style: none;
+    border-radius: 3px;
+}
+.header .search button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.search{
+    border: 1px solid #ddd;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: #fff;
+   
+}
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+.menu a.red {
+    color: red;
+}
+.thongtin{
+    padding-top: 20px;
+    margin-top: 40px;
+}
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.cart-table th, .cart-table td {
+    
+    padding: 10px;
+    text-align: left;
+}
+.cart-table th {
+    background-color: #f9f9f9;
+}
+.cart-table .product-img {
+    width: 50px;
+    height: 50px;
+}
+.cart-table .product-name {
+    display: flex;
+    align-items: center;
+}
+.cart-table .product-name img {
+    margin-right: 10px;
+}
+.cart-table .remove {
+    color: #888;
+    cursor: pointer;
+}
+.cart-table .remove:hover {
+    color: #000;
+}
+thead, tbody{
+    border: 1px solid #ddd;
+}
+tbody input{
+    width: 40px;
+}
+.tong{
+    border: 1px solid #ddd;
+    display: flex;
+}
+.c{
+    display: flex;
+}
+.c1{
+    margin-left: 820px;
+}
+.c2{
+    margin-left: 230px;
+    align-items: center;
+}
+.button1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    
+}
+.button1 input{
+    padding: 10px 15px;
+    font-weight: 500;
+    border: none;
+}
+
+.button2{
+    background-color: ddd;
+    
+}
+.button3{
+    background-color: red;
+    color: #fff;
+}
+.red{
+    color: red;
+    font-weight: 700;
+}

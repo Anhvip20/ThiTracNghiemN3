@@ -1,0 +1,223 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+  }
+  body{
+   
+    display: flex;
+    gap: 40px;
+  }
+  .sp{
+    flex-basis: 70%;
+  }
+  .td{
+    padding: 15px 0 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+  }
+  .dssp{
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+    
+    align-items: center;
+    position: relative;
+  }
+  .muiten {
+    font-size: 40px;
+    color: #ddd;
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  .a1 {
+    left: 10px;
+  }
+  
+  .a2 {
+    right: 10px;
+  }
+  .dssp img{
+    width: 110px;
+    height: 110px;
+    
+  }
+  .spi{
+    display: flex;
+    gap: 10px;
+  }
+  .spi_chu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+  }
+  .spi_chu p:nth-child(1){
+    font-size: 18px;
+    font-weight: bold;
+  }.spi_chu p:nth-child(2){
+    color: orangered;
+    font-weight: bold;
+  }
+  .spi_chu button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    font-weight: bold;
+  }
+  .giohang{
+    margin: 20px 0; 
+  }
+  .giohang h3{
+ padding: 5px 10px;
+ 
+ background-color: #ddd;
+  }
+  .gh1 img{
+    width: 120px;
+    height: 120px;
+  }
+  .gh1{
+    margin: 20px 0;
+    display: flex;
+    
+    justify-content: space-between;
+  }
+.gh-tong{
+  gap: 10px;
+  display: flex;
+}
+  .gh1-ten{
+    
+  } 
+  .gh1-ten p:nth-child(1){
+    font-weight: bold;
+  }
+  .gh1-ten p:nth-child(2){
+    color: darkgrey;
+    margin: 5px 0;
+  }
+  .selec{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .selec1{
+    display: flex;
+    flex-direction: column;
+  }
+  .selec1 label{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .selec1 select{
+    width: 100px;
+    height: 30px;
+  }
+ .gh1-tien{
+ 
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+ }
+ .gh1-tien p{
+  color:orangered;
+ }
+ .gh1-tien p:nth-child(1){
+  font-weight: bold;
+  padding-bottom: 5px;
+  
+ }
+ .gh1-tien p:nth-child(2){
+font-size: 13px;
+padding-bottom: 5px;
+ }
+.gh1-tien button{
+  height: 30px;
+  border: 1px solid #ddd;
+}
+.thich{
+  background-color: white;
+  margin-bottom: 5px;
+}
+.xoa{
+  color: #fff;
+  background-color: black;
+}
+.nut{
+  border-top:2px solid black ;
+  display: flex;
+  justify-content: space-between;
+}
+.nut button{
+  margin-top: 70px;
+  color: #fff;
+  background-color: black;
+  font-weight: bold;
+  padding: 5px;
+  width: 250px;
+}
+.donhang{
+  flex-basis: 30%;
+  background-color: #ddd;
+  padding: 10px;
+  height: 90%;
+}
+.donhang h3{
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+.km{
+  margin-top: 30px  ;
+  font-weight: bold;
+  font-size: 15px;
+}
+.nutdh{
+  display: flex;
+  margin-bottom: 20px;
+}
+.nutdh input {
+height: 30px;
+width: 70%;
+
+}
+.nutdh button{
+  width: 30%;
+  color: white;
+    background-color: orangered;
+    border: none;
+    font-weight: bold;
+}
+.dh1{
+  color:darkgrey ;
+  font-weight: bold;
+  padding: 30px 0;
+  border-bottom: 2px dashed darkgrey;
+  border-top:2px dashed darkgrey;
+}
+.dh2{
+  display: flex;
+  justify-content: space-between;
+}
+.dh-tt{
+padding: 20px 0;
+display: flex;
+justify-content:space-between ;
+font-weight: 700;
+}
+.gh-ttoan{
+  color: white;
+    background-color: orangered;
+    border: none;
+    width: 100%;
+    height: 70px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}

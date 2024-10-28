@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng</title>
+    <link rel="stylesheet" href="de4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="giohang">
+            <h2>Chi tiết sản phẩm trong giỏ hàng</h2>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="sp sp1">
+                            <img src="https://bizweb.dktcdn.net/100/415/697/products/1-a76844f8-43b5-4ba4-8f94-08ff2f36394a-1657108711259.jpg?v=1701403445883" alt="">
+                            <div class="chugh">
+                                <p>Áo Thun Nam KiriMaru Báic TD E01</p>
+                                <p>Trắng, M</p>
+                            </div>
+                            <div class="thanhtien">
+                                <p class="gia">99000</p> 
+                                <div class="cc1">
+                                    <input type="number" value="1" min="1" class="hh1">
+                                    <input type="button" value="Update" onclick="update()">
+                                    <p class="xoa"><i class="fa-regular fa-circle-xmark" onclick="del(1)"></i></p>
+                                </div>
+                                <div class="tongtien">
+                                    <p>= đ</p>
+                                    <p class="tiencuoi">99000</p> 
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="sp sp2">
+                            <img src="https://bizweb.dktcdn.net/100/415/697/products/1-a76844f8-43b5-4ba4-8f94-08ff2f36394a-1657108711259.jpg?v=1701403445883" alt="">
+                            <div class="chugh">
+                                <p>Áo Thun Nam KiriMaru Báic TD E01</p>
+                                <p>Trắng, M</p>
+                            </div>
+                            <div class="thanhtien">
+                                <p class="gia">99000</p>
+                                <div class="cc1">
+                                    <input type="number" value="1" min="1" class="hh1">
+                                    <input type="button" value="Update" onclick="update()">
+                                    <p class="xoa"><i class="fa-regular fa-circle-xmark" onclick="del(2)"></i></p>
+                                </div>
+                                <div class="tongtien">
+                                    <p>= đ</p>
+                                    <p class="tiencuoi">99000</p> 
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        <div class="tongcong">
+                            <p>Tổng cộng: đ</p>
+                            <p class="tiencuoi" id="tongcong">0</p>
+                        </div>
+                    </td>
+                </tr>
+            </tfoot>
+        </div>
+        <div class="thongtin">
+            <form action="">
+                <h2>Thông Tin người mua/nhận hàng</h2>  
+                <label class="chu">Tên </label><br>
+                <input type="text" placeholder="Tên người nhận" class="o"><br>
+                <label class="chu">Điện Thoại Liên Lạc </label><br>
+                <input type="text" placeholder="Số điện thoại" class="o"><br>
+                <label><input type="radio">Nhận hàng tại nhà/công ty/bưu điện</label><br>
+                <label><input type="radio">Nhận hàng tại cửa hàng YaMe gần nhất</label><br>
+                <input type="text" placeholder="Địa chỉ nhận hàng" class="o"><br>
+                <label class="chu">Ghi chú </label><br>
+                <textarea cols="80" rows="5"></textarea><br>
+                <input type="button" value="Đặt hàng" class="o nut1"> <br> 
+                <hr>
+                <input type="button" value="Cần sản phẩm khác? Tiếp tục mua hàng" class="o nut2">
+            </form>
+        </div>
+    </div>
+    <script src="de4.js"></script>
+</body>
+</html>

@@ -10,11 +10,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    
 }
 .header img {
-    height: 50px;
-    margin-left: 700px;
+    width: 20%;
+    height:100px;
+    margin-left: 500px;
+    object-fit: cover;
 }
 .header .search {
     display: flex;
@@ -49,6 +50,9 @@ body {
 }
 .menu a.red {
     color: red;
+}
+.menu2 a:nth-child(2){
+color: darkgreen;
 }
 .thongtin{
     padding-top: 20px;
@@ -109,6 +113,7 @@ tbody input{
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
+    /* position: relative; */
     
 }
 .button1 input{
@@ -120,10 +125,12 @@ tbody input{
 .button2{
     background-color: ddd;
     
+    
 }
 .button3{
     background-color: red;
     color: #fff;
+    
 }
 .red{
     color: red;
